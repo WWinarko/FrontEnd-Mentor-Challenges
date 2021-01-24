@@ -17,3 +17,8 @@ Project is created with:
 ## Challenges
 
 ### Profile Card Component
+What I Learn:
+- How to Centered Element (Don't Use Bootstrap's Container)
+- Overflow: Hidden to keep the Bubble Background not scrolling
+- Use padding-top-left/right-radius to overwrite the bootstrap border radius
+- 

@@ -1,0 +1,101 @@
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    text-align: center;
+    overflow: hidden;
+}
+
+h2, h3 {
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+
+p {
+    color: hsl(0, 0%, 59%);
+    letter-spacing: 2px;
+}
+
+hr {
+    width: 100%;
+    color: hsl(0, 0%, 59%);
+    margin: 1.25rem 0 1rem;
+}
+
+.card-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Background  */
+#bg-top-pattern {
+    position: absolute;
+    right: 50%;
+    bottom: 34%;
+    width: 1065.6px;
+}
+
+#bg-bottom-pattern {
+    position: absolute;
+    width: 1065.6px;
+    left: 46%;
+    top: 50%;
+}
+
+/* Card  */
+
+.card {
+    width: 20rem;
+    padding: 0;
+    border: none;
+    border-radius: 15px;
+}
+
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.profile-img {
+    border-radius: 100%;
+    border: 6px solid #ffffff;
+    left: 32%;
+    top: 23%;
+    position: absolute;
+    width: 120px;
+}
+
+.card-body {
+    padding: 24% 0 0;
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.card-title span {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    letter-spacing: 1;
+}
+.location {
+    letter-spacing: 0;
+    font-size: 14px;
+}
+.row {
+    padding: 2% 12% 0;
+}
+
+.profile-info {
+    font-size: 10px;
+}
+
+/* Attribution */
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
